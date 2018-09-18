@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/firstsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:text="First Semester"
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:textSize="24sp"
+        app:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/secondsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Second Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/thirdsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Third Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/fourthsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Fourth Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/fifthsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Fifth Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/sixthsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Sixth Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/seventhsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Seventh Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/eighthsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0084c1"
+        android:padding="5dp"
+        android:text="Eighth Semester"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:fontFamily="cursive" />
+
+
+
+</LinearLayout>

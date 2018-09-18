@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/ic_dehaze_black_24dp"/>
+    <TextView android:text="Explore"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/ic_search_black_24dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@mipmap/aims"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:id="@+id/intro"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#fd5101">
+            <ImageView
+
+                android:src="@drawable/ic_home_white_24dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView android:text="Introduction"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/syllabus"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#009d84">
+            <ImageView
+                android:src="@drawable/ic_event_note_black_24dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView android:text="Syllabus"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/notice"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#f1b602">
+            <ImageView android:src="@drawable/ic_content_paste_black_24dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView android:text="Notice/Events"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/notes"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#0084c1">
+            <ImageView android:src="@drawable/ic_import_contacts_black_24dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView android:text="Notes/References"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
